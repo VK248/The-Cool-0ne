@@ -1,0 +1,19 @@
+body{
+    color: black;
+    background: rgb(205,15,121);
+background: linear-gradient(90deg, rgba(205,15,121,1) 10%, rgba(207,19,26,1) 31%, rgba(20,57,236,1) 48%, rgba(33,210,181,1) 100%);
+}
+h3{
+font-size: 35px !important;
+}
+canvas{
+animation-name: example;
+animation-duration: 4s;
+}
+@keyframes example {
+     from {box-shadow: 1px 1px 38px red;
+    } to {box-shadow: 1px 1px 38px yellow;} }
+    .btn-success:hover
+    {
+    background-color: red;
+    }
